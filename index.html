@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project-8</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1 class="header">Awesome Startup Employee Directory</h1>
+        <div class="center">
+        <form autocomplete="off">
+            <div class="autocomplete">
+            <input required type="text" placeholder="Search for employees" class="form-field" id="myInput" name="myCountry" >
+            <button class="button-primary" type="button">Search</button>
+            </div>
+        </form>
+        </div>
+    </header>
+    <main class="grid-container">
+    </main>
+    <!-- Modal Markup -->
+    <div class="overlay hidden">
+        <div class="modal">
+            <button class="modal-close">X</button>
+            <button class="modal-left"><</button>
+            <button class="modal-right">></button>
+            <div class="modal-content">
+                <!-- modal information will be added with JS later -->
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
